@@ -8,51 +8,51 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    id: "brand",
+    id: "branding",
     num: "01",
-    title: "Brand Strategy",
+    title: "Identidad de marca",
     description:
-      "Positioning, narrative and go-to-market clarity for brands ready to scale with intention.",
+      "Logotipos y sistemas visuales que representan la esencia de tu marca. Diseño estratégico para destacar y conectar.",
     visualClass: "visualBrand",
   },
   {
-    id: "ads",
-    num: "02",
-    title: "Digital Advertising",
-    description:
-      "Full-funnel campaigns across paid media — measured, optimized and built for performance.",
-    visualClass: "visualAds",
-  },
-  {
-    id: "web",
-    num: "03",
-    title: "Web Design & Development",
-    description:
-      "High-end websites and digital products with cinematic UX and engineering that lasts.",
-    visualClass: "visualWeb",
-  },
-  {
     id: "social",
-    num: "04",
-    title: "Social Media",
+    num: "02",
+    title: "Diseño para redes",
     description:
-      "Platform-native content systems that grow communities and keep brands culturally relevant.",
+      "Piezas visuales pensadas para captar la atención y comunicar tu mensaje. Estética moderna, impacto real.",
     visualClass: "visualSocial",
   },
   {
-    id: "creative",
-    num: "05",
-    title: "Content & Creative",
+    id: "community",
+    num: "03",
+    title: "Community management",
     description:
-      "Visual direction, copy and motion for campaigns that feel editorial, not templated.",
+      "Gestión de comentarios, mensajes, calendarios, historias y reels. Tu marca presente, con criterio y constancia.",
+    visualClass: "visualAds",
+  },
+  {
+    id: "packaging",
+    num: "04",
+    title: "Diseño de packaging",
+    description:
+      "Envases que venden por sí solos. Creatividad al servicio de tu producto, con identidad y propósito.",
+    visualClass: "visualWeb",
+  },
+  {
+    id: "marketing",
+    num: "05",
+    title: "Marketing & campañas",
+    description:
+      "Estrategia, contenido y creatividad publicitaria que convierte ideas en piezas memorables.",
     visualClass: "visualCreative",
   },
   {
-    id: "tech",
+    id: "training",
     num: "06",
-    title: "Automation & Technology",
+    title: "Capacitaciones",
     description:
-      "Integrations, CRM flows and custom tools that connect marketing with real business outcomes.",
+      "Talleres y acompañamiento para que tu equipo o tu marca ganen autonomía en comunicación visual y redes.",
     visualClass: "visualTech",
   },
 ];

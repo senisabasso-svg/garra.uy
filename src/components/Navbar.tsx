@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 
 const links = [
-  { href: "#work", label: "Work" },
-  { href: "#services", label: "Services" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
+  { href: "#work", label: "Trabajos" },
+  { href: "#services", label: "Servicios" },
+  { href: "#about", label: "Estudio" },
+  { href: "#contact", label: "Contacto" },
 ];
 
 export function Navbar() {

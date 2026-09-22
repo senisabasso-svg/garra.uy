@@ -16,12 +16,18 @@ export function About() {
       </div>
 
       <div ref={textRef} className={styles.content}>
+        <p className="section-label">El estudio</p>
         <h2 id="about-title" className={styles.headline}>
-          WE DON&apos;T JUST MAKE THINGS LOOK GOOD.
+          NO SOLO HACEMOS QUE SE VEA BIEN.
         </h2>
         <p className={styles.body}>
-          We combine strategy, creativity and technology to build digital
-          experiences that people remember.
+          Soy Sofía Grassi, fundadora de Garra. Operadora en diseño gráfico y
+          técnica en marketing. Este proyecto nace de la pasión por el diseño y
+          del deseo de ayudar a emprendedores, marcas y profesionales a
+          comunicar su identidad de forma visual, clara y atractiva.
+        </p>
+        <p className={styles.bodySecondary}>
+          Diseñamos con estrategia, pasión y garra.
         </p>
       </div>
     </section>

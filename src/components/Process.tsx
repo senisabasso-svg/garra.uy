@@ -7,11 +7,11 @@ import styles from "./Process.module.css";
 gsap.registerPlugin(ScrollTrigger);
 
 const steps = [
-  { num: "01", title: "Discover" },
-  { num: "02", title: "Strategize" },
-  { num: "03", title: "Create" },
-  { num: "04", title: "Build" },
-  { num: "05", title: "Grow" },
+  { num: "01", title: "Conocernos" },
+  { num: "02", title: "Estrategia" },
+  { num: "03", title: "Crear" },
+  { num: "04", title: "Producir" },
+  { num: "05", title: "Acompañar" },
 ];
 
 export function Process() {
@@ -64,9 +64,9 @@ export function Process() {
     >
       <div className={styles.layout}>
         <div className={styles.sticky}>
-          <p className="section-label">Method</p>
+          <p className="section-label">Método</p>
           <h2 id="process-title" className="section-title">
-            HOW WE WORK
+            CÓMO TRABAJAMOS
           </h2>
         </div>
 

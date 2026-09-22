@@ -125,33 +125,33 @@
 
 .visualOne {
   background:
-    radial-gradient(circle at 25% 30%, rgba(59, 159, 217, 0.45), transparent 45%),
-    linear-gradient(125deg, #0c1828 0%, #14141a 50%, #0a0a0c 100%);
+    radial-gradient(circle at 25% 30%, rgba(200, 194, 174, 0.3), transparent 45%),
+    linear-gradient(125deg, #2a2b24 0%, #161613 50%, #0c0c0b 100%);
 }
 
 .visualTwo {
   background:
-    linear-gradient(90deg, transparent, rgba(46, 196, 182, 0.12), transparent),
+    linear-gradient(90deg, transparent, rgba(183, 179, 154, 0.12), transparent),
     repeating-linear-gradient(
       -12deg,
-      rgba(255, 255, 255, 0.03) 0,
-      rgba(255, 255, 255, 0.03) 2px,
+      rgba(242, 239, 230, 0.04) 0,
+      rgba(242, 239, 230, 0.04) 2px,
       transparent 2px,
       transparent 24px
     ),
-    #111318;
+    #161613;
 }
 
 .visualThree {
   background:
-    radial-gradient(ellipse at 80% 20%, rgba(46, 196, 182, 0.2), transparent 50%),
-    linear-gradient(180deg, #1a2235, #080809);
+    radial-gradient(ellipse at 80% 20%, rgba(70, 72, 61, 0.55), transparent 50%),
+    linear-gradient(180deg, #22231e, #0c0c0b);
 }
 
 .visualFour {
   background:
-    conic-gradient(from 180deg at 60% 40%, #0f2744, #080809, #2ec4b6, #0a0a0c);
-  filter: saturate(0.7);
+    conic-gradient(from 180deg at 60% 40%, #46483d, #0c0c0b, #c8c2ae, #0a0a09);
+  filter: saturate(0.65);
 }
 
 @media (max-width: 768px) {

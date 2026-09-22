@@ -11,8 +11,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "p1",
-    label: "Project 01",
-    category: "Digital Campaign",
+    label: "Trabajo 01",
+    category: "Identidad visual",
     year: "2025",
     parallaxSpeed: 0.35,
     parallaxScale: 0.03,
@@ -20,8 +20,8 @@ export const projects: Project[] = [
   },
   {
     id: "p2",
-    label: "Project 02",
-    category: "Brand Experience",
+    label: "Trabajo 02",
+    category: "Redes & contenido",
     year: "2025",
     parallaxSpeed: 0.52,
     parallaxScale: 0.025,
@@ -29,8 +29,8 @@ export const projects: Project[] = [
   },
   {
     id: "p3",
-    label: "Project 03",
-    category: "E-commerce",
+    label: "Trabajo 03",
+    category: "Packaging",
     year: "2024",
     parallaxSpeed: 0.28,
     parallaxScale: 0.035,
@@ -38,8 +38,8 @@ export const projects: Project[] = [
   },
   {
     id: "p4",
-    label: "Project 04",
-    category: "Digital Product",
+    label: "Trabajo 04",
+    category: "Campaña creativa",
     year: "2024",
     parallaxSpeed: 0.45,
     parallaxScale: 0.02,

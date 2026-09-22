@@ -107,51 +107,51 @@
 
 .visualBrand {
   background:
-    radial-gradient(circle at 30% 20%, rgba(59, 159, 217, 0.5), transparent 55%),
-    linear-gradient(160deg, #1a2744, #0a0a0c);
+    radial-gradient(circle at 30% 20%, rgba(200, 194, 174, 0.35), transparent 55%),
+    linear-gradient(160deg, #2a2b24, #0c0c0b);
 }
 
 .visualAds {
   background:
-    linear-gradient(45deg, transparent 48%, rgba(46, 196, 182, 0.25) 50%, transparent 52%),
-    linear-gradient(135deg, #152238, #080809);
+    linear-gradient(45deg, transparent 48%, rgba(183, 179, 154, 0.25) 50%, transparent 52%),
+    linear-gradient(135deg, #1c1c18, #0c0c0b);
 }
 
 .visualWeb {
   background:
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.04) 0,
-      rgba(255, 255, 255, 0.04) 1px,
+      rgba(242, 239, 230, 0.05) 0,
+      rgba(242, 239, 230, 0.05) 1px,
       transparent 1px,
       transparent 12px
     ),
-    linear-gradient(180deg, #0f1a2e, #080809);
+    linear-gradient(180deg, #22231e, #0c0c0b);
 }
 
 .visualSocial {
   background:
-    radial-gradient(circle at 70% 60%, rgba(46, 196, 182, 0.35), transparent 50%),
-    #121218;
+    radial-gradient(circle at 70% 60%, rgba(70, 72, 61, 0.7), transparent 50%),
+    #161613;
 }
 
 .visualCreative {
   background:
-    conic-gradient(from 210deg at 50% 50%, #1e3a5f, #0c1f3d, #2ec4b6, #0a0a0c);
-  filter: saturate(0.75);
+    conic-gradient(from 210deg at 50% 50%, #46483d, #1c1c18, #c8c2ae, #0c0c0b);
+  filter: saturate(0.7);
 }
 
 .visualTech {
   background:
-    linear-gradient(0deg, rgba(59, 159, 217, 0.15), transparent),
+    linear-gradient(0deg, rgba(200, 194, 174, 0.12), transparent),
     repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.03) 0,
-      rgba(255, 255, 255, 0.03) 1px,
+      rgba(242, 239, 230, 0.04) 0,
+      rgba(242, 239, 230, 0.04) 1px,
       transparent 1px,
       transparent 8px
     ),
-    #0e1014;
+    #121210;
 }
 
 @media (max-width: 768px) {

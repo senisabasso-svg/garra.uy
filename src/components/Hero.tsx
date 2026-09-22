@@ -38,38 +38,32 @@ export function Hero() {
           ) : null}
         </div>
         <div className={styles.overlay} aria-hidden />
-        <div
-          ref={decorRef}
-          className={styles.decor}
-          aria-hidden
-        >
+        <div ref={decorRef} className={styles.decor} aria-hidden>
           <div className={styles.gridLine} />
           <div className={styles.glow} />
         </div>
       </div>
 
       <div className={styles.content}>
-        <div
-          ref={headlineRef}
-          className={styles.headlineBlock}
-        >
+        <div ref={headlineRef} className={styles.headlineBlock}>
+          <p className={styles.eyebrow}>Estudio creativo · Est. 2023</p>
           <h1 id="hero-heading" className={styles.headline}>
-            WE BUILD
+            DISEÑO CON
             <br />
-            DIGITAL EXPERIENCES.
+            IDENTIDAD Y GARRA.
           </h1>
           <p className={styles.subheadline}>
-            Advertising, design, technology and strategy for brands that want to
-            move forward.
+            Branding, marketing y community management para marcas que quieren
+            comunicar con claridad, estética y propósito.
           </p>
         </div>
 
         <div className={styles.ctas}>
           <a href="#contact" className="btn btn-primary">
-            Start a project
+            Empezar un proyecto
           </a>
           <a href="#work" className="btn btn-ghost">
-            View our work
+            Ver trabajos
           </a>
         </div>
       </div>

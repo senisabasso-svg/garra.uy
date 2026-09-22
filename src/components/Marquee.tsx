@@ -27,12 +27,12 @@ export function Marquee() {
       <div className={styles.inner}>
         <div ref={trackRef} className={styles.track} aria-hidden>
           <div className={styles.row}>
-            <span>IDEAS THAT MOVE BRANDS FORWARD.</span>
-            <span>IDEAS THAT MOVE BRANDS FORWARD.</span>
+            <span>DISEÑAMOS CON ESTRATEGIA, PASIÓN Y GARRA.</span>
+            <span>DISEÑAMOS CON ESTRATEGIA, PASIÓN Y GARRA.</span>
           </div>
         </div>
         <p className={styles.tags}>
-          Strategy / Creative / Technology / Performance
+          Branding / Redes / Packaging / Marketing
         </p>
       </div>
     </section>

@@ -16,15 +16,28 @@ export function CtaFinal() {
 
       <div ref={textRef} className={styles.content}>
         <h2 id="cta-heading" className={styles.headline}>
-          LET&apos;S BUILD
+          CONTÁME TU
           <br />
-          SOMETHING
+          MARCA.
           <br />
-          WORTH REMEMBERING.
+          HAGÁMOSLA CRECER.
         </h2>
-        <a href="mailto:hello@garra.uy" className={`btn btn-primary ${styles.cta}`}>
-          Start a project →
-        </a>
+        <div className={styles.actions}>
+          <a
+            href="https://wa.me/59899981734"
+            className={`btn btn-primary ${styles.cta}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Escribir por WhatsApp →
+          </a>
+          <a
+            href="mailto:garra.estcreativo@gmail.com"
+            className={`btn btn-ghost ${styles.cta}`}
+          >
+            garra.estcreativo@gmail.com
+          </a>
+        </div>
       </div>
     </section>
   );

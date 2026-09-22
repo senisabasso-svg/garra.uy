@@ -9,9 +9,9 @@ export function Services() {
       aria-labelledby="services-title"
     >
       <div className={styles.header}>
-        <p className="section-label">Capabilities</p>
+        <p className="section-label">Servicios</p>
         <h2 id="services-title" className="section-title">
-          WHAT WE DO
+          LO QUE HACEMOS
         </h2>
       </div>
 

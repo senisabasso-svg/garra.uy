@@ -8,7 +8,7 @@ export function Work() {
       <div className={styles.header}>
         <p className="section-label">Portfolio</p>
         <h2 id="work-title" className="section-title">
-          SELECTED WORK
+          TRABAJOS SELECCIONADOS
         </h2>
       </div>
 

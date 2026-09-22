@@ -5,8 +5,11 @@ const links = [
     label: "Instagram",
     href: "https://www.instagram.com/garrauy_/",
   },
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Email", href: "mailto:hello@garra.uy" },
+  {
+    label: "WhatsApp",
+    href: "https://wa.me/59899981734",
+  },
+  { label: "Email", href: "mailto:garra.estcreativo@gmail.com" },
 ];
 
 export function Footer() {
@@ -40,11 +43,11 @@ export function Footer() {
             </li>
           ))}
           <li>
-            <span className={styles.location}>Montevideo, UY</span>
+            <span className={styles.location}>Uruguay</span>
           </li>
         </ul>
       </div>
-      <p className={styles.copy}>© 2026 — ALL RIGHTS RESERVED.</p>
+      <p className={styles.copy}>© 2026 Garra — TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
   );
 }
