@@ -1,0 +1,98 @@
+.section {
+  position: relative;
+  padding: var(--section-padding-y) var(--section-padding-x);
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.composition {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.layer {
+  position: absolute;
+  will-change: transform;
+}
+
+.layerBack {
+  width: 55vw;
+  height: 55vw;
+  max-width: 640px;
+  max-height: 640px;
+  top: 10%;
+  right: -8%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(12, 31, 61, 0.65), transparent 68%);
+}
+
+.layerMid {
+  width: clamp(200px, 28vw, 380px);
+  height: clamp(280px, 38vw, 520px);
+  bottom: 8%;
+  left: 8%;
+  border: 1px solid rgba(59, 159, 217, 0.2);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(46, 196, 182, 0.06)
+  );
+}
+
+.layerFront {
+  width: clamp(120px, 18vw, 220px);
+  height: clamp(120px, 18vw, 220px);
+  top: 22%;
+  left: 42%;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.06) 0,
+      rgba(255, 255, 255, 0.06) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    rgba(18, 18, 20, 0.85);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  width: min(100%, var(--max-width));
+  margin: 0 auto;
+  max-width: 52rem;
+  will-change: transform;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+  margin: 0 0 1.75rem;
+}
+
+.body {
+  margin: 0;
+  font-size: clamp(1.0625rem, 2vw, 1.35rem);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 42ch;
+}
+
+@media (max-width: 768px) {
+  .layerMid,
+  .layerFront {
+    opacity: 0.65;
+  }
+
+  .layerBack {
+    right: -25%;
+  }
+}
