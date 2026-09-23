@@ -13,16 +13,15 @@ export type Project = {
   visualClass: string;
 };
 
-// TODO (pedir a Sofía): nombres reales de clientes + portada de cada caso,
-// tomados del destacado "Trabajos 🚀" de @garrauy_.
-// Mientras la imagen no exista se ve el fondo abstracto.
+// Casos y portadas armados con trabajos publicados en @garrauy_.
+// Si la imagen no existe se ve el fondo abstracto de respaldo.
 export const projects: Project[] = [
   {
     id: "p1",
-    label: "Trabajo 01",
+    label: "Kairos · Verónica Ocampo · Roma · Granolas",
     category: "Identidad visual",
-    year: "2025",
-    summary: "Logo, paleta y sistema visual para una marca que arrancaba de cero.",
+    year: "2023",
+    summary: "Logotipos e identidad para emprendimientos y profesionales: velas, psicología, impresión 3D y productos artesanales.",
     image: "/images/trabajos/trabajo-01.jpg",
     parallaxSpeed: 0.35,
     parallaxScale: 0.03,
@@ -30,10 +29,10 @@ export const projects: Project[] = [
   },
   {
     id: "p2",
-    label: "Trabajo 02",
-    category: "Redes & contenido",
-    year: "2025",
-    summary: "Feed, historias y reels con una línea estética clara y constante.",
+    label: "Deli Caseras",
+    category: "Packaging & papelería",
+    year: "2023",
+    summary: "Logo, etiqueta para la caja y lista de precios para una marca de pastas y salsas caseras.",
     image: "/images/trabajos/trabajo-02.jpg",
     parallaxSpeed: 0.52,
     parallaxScale: 0.025,
@@ -41,10 +40,10 @@ export const projects: Project[] = [
   },
   {
     id: "p3",
-    label: "Trabajo 03",
-    category: "Community management",
-    year: "2026",
-    summary: "Gestión mensual de la cuenta: calendario, comunidad y métricas.",
+    label: "Landford Home",
+    category: "Identidad de marca",
+    year: "2024",
+    summary: "Nueva identidad visual para que la marca comunique con claridad y personalidad.",
     image: "/images/trabajos/trabajo-03.jpg",
     parallaxSpeed: 0.28,
     parallaxScale: 0.035,
@@ -52,10 +51,10 @@ export const projects: Project[] = [
   },
   {
     id: "p4",
-    label: "Trabajo 04",
-    category: "Campaña en Meta Ads",
-    year: "2026",
-    summary: "Segmentación pensada para llegar a las personas correctas, no a más personas.",
+    label: "Contenido para redes",
+    category: "Redes & contenido",
+    year: "2025",
+    summary: "Placas y carruseles con línea estética propia: estrategia, contenido y comunidad.",
     image: "/images/trabajos/trabajo-04.jpg",
     parallaxSpeed: 0.45,
     parallaxScale: 0.02,

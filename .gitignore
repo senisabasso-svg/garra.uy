@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Material de trabajo (originales de Instagram)
+_ig/
+_instagram-originales/

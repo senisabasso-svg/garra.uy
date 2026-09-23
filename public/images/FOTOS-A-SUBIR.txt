@@ -1,13 +1,8 @@
-Fotos que faltan (si no están, la web muestra el fondo abstracto de respaldo):
+Imágenes de la web (sacadas de @garrauy_). Para cambiar una, reemplazá el archivo con el mismo nombre:
 
-  sofia.jpg                      -> retrato de Sofía, vertical 4:5 (sección "El estudio")
-  trabajos/trabajo-01.jpg ... 04 -> portada de cada caso, horizontal 16:9 (sección Portfolio)
-  servicios/branding.jpg         -> mockup de logo/identidad (4:5)
-  servicios/social.jpg           -> placas/feed de un cliente
-  servicios/community.jpg        -> captura de un feed gestionado
-  servicios/packaging.jpg        -> envase (o sacar el servicio si no lo hace)
-  servicios/marketing.jpg        -> anuncio / campaña Meta Ads
-  servicios/training.jpg         -> foto de Sembrando o Building Marketers
+  sofia.jpg                       -> retrato de Sofía (4:5)
+  trabajos/trabajo-01..04.jpg     -> portadas del portfolio (16:9, 1600x900)
+  servicios/<id>.jpg              -> imagen al pasar el mouse por cada servicio (4:5, 800x1000)
 
-Nombres de clientes y textos de cada caso: src/data/projects.ts
-Qué incluye cada plan: src/data/plans.ts
+Textos de cada caso: src/data/projects.ts · Planes: src/data/plans.ts
+Originales de Instagram: carpeta _instagram-originales (no se publica)
