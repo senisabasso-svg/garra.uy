@@ -82,6 +82,16 @@
   pointer-events: none;
 }
 
+.visual {
+  overflow: hidden;
+}
+
+.visualImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .row:hover .visual,
 .row:focus-visible .visual {
   opacity: 1;

@@ -54,7 +54,14 @@
   font-size: clamp(2.25rem, 6.5vw, 5rem);
   letter-spacing: -0.04em;
   line-height: 0.95;
-  margin: 0 0 2.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.lead {
+  margin: 0 auto 2.5rem;
+  max-width: 40ch;
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  color: var(--color-text-muted);
 }
 
 .actions {

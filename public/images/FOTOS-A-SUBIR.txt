@@ -1,0 +1,13 @@
+Fotos que faltan (si no están, la web muestra el fondo abstracto de respaldo):
+
+  sofia.jpg                      -> retrato de Sofía, vertical 4:5 (sección "El estudio")
+  trabajos/trabajo-01.jpg ... 04 -> portada de cada caso, horizontal 16:9 (sección Portfolio)
+  servicios/branding.jpg         -> mockup de logo/identidad (4:5)
+  servicios/social.jpg           -> placas/feed de un cliente
+  servicios/community.jpg        -> captura de un feed gestionado
+  servicios/packaging.jpg        -> envase (o sacar el servicio si no lo hace)
+  servicios/marketing.jpg        -> anuncio / campaña Meta Ads
+  servicios/training.jpg         -> foto de Sembrando o Building Marketers
+
+Nombres de clientes y textos de cada caso: src/data/projects.ts
+Qué incluye cada plan: src/data/plans.ts

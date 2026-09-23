@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Marquee } from "./components/Marquee";
 import { Navbar } from "./components/Navbar";
+import { Plans } from "./components/Plans";
 import { Process } from "./components/Process";
 import { Services } from "./components/Services";
 import { SmoothScroll } from "./components/SmoothScroll";
@@ -22,6 +23,7 @@ function App() {
         <Services />
         <Work />
         <Process />
+        <Plans />
         <About />
         <CtaFinal />
       </main>

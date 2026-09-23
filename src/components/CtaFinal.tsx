@@ -16,12 +16,15 @@ export function CtaFinal() {
 
       <div ref={textRef} className={styles.content}>
         <h2 id="cta-heading" className={styles.headline}>
-          CONTÁME TU
+          CONTAME TU
           <br />
           MARCA.
           <br />
           HAGÁMOSLA CRECER.
         </h2>
+        <p className={styles.lead}>
+          Contame en qué estás trabajando y veamos cómo potenciarlo juntos.
+        </p>
         <div className={styles.actions}>
           <a
             href="https://wa.me/59899981734"
@@ -30,6 +33,14 @@ export function CtaFinal() {
             rel="noopener noreferrer"
           >
             Escribir por WhatsApp →
+          </a>
+          <a
+            href="https://www.instagram.com/garrauy_/"
+            className={`btn btn-ghost ${styles.cta}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram @garrauy_
           </a>
           <a
             href="mailto:garra.estcreativo@gmail.com"

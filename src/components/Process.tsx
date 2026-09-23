@@ -7,11 +7,31 @@ import styles from "./Process.module.css";
 gsap.registerPlugin(ScrollTrigger);
 
 const steps = [
-  { num: "01", title: "Conocernos" },
-  { num: "02", title: "Estrategia" },
-  { num: "03", title: "Crear" },
-  { num: "04", title: "Producir" },
-  { num: "05", title: "Acompañar" },
+  {
+    num: "01",
+    title: "Conocernos",
+    desc: "Charlamos sobre tu marca, tu público y a dónde querés llegar.",
+  },
+  {
+    num: "02",
+    title: "Estrategia",
+    desc: "Definimos a quién le hablamos, qué decimos y cómo lo vamos a medir.",
+  },
+  {
+    num: "03",
+    title: "Crear",
+    desc: "Diseñamos la identidad, las piezas y el calendario de contenido.",
+  },
+  {
+    num: "04",
+    title: "Producir",
+    desc: "Publicamos, gestionamos la comunidad y lanzamos las campañas.",
+  },
+  {
+    num: "05",
+    title: "Acompañar",
+    desc: "Revisamos métricas todos los meses y ajustamos lo que haga falta.",
+  },
 ];
 
 export function Process() {
@@ -74,7 +94,10 @@ export function Process() {
           {steps.map((step) => (
             <li key={step.num} className={styles.step}>
               <span className={styles.num}>{step.num}</span>
-              <span className={styles.title}>{step.title}</span>
+              <div className={styles.text}>
+                <span className={styles.title}>{step.title}</span>
+                <p className={styles.desc}>{step.desc}</p>
+              </div>
             </li>
           ))}
         </ol>

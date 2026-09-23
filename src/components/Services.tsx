@@ -1,4 +1,5 @@
 import { services } from "../data/services";
+import { SlotImage } from "./SlotImage";
 import styles from "./Services.module.css";
 
 export function Services() {
@@ -25,7 +26,13 @@ export function Services() {
               <span
                 className={`${styles.visual} ${styles[service.visualClass as keyof typeof styles]}`}
                 aria-hidden
-              />
+              >
+                <SlotImage
+                  src={`/images/servicios/${service.id}.jpg`}
+                  alt=""
+                  className={styles.visualImg}
+                />
+              </span>
             </button>
           </li>
         ))}

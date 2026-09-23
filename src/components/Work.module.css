@@ -47,6 +47,25 @@
   transition: transform 0.8s var(--ease-out-expo);
 }
 
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.summary {
+  max-width: 52ch;
+  margin-top: 0.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+  transform: translateY(0.75rem);
+  opacity: 0;
+  transition:
+    opacity 0.5s var(--ease-smooth) 0.1s,
+    transform 0.55s var(--ease-out-expo) 0.1s;
+}
+
 .cardLink:hover .media,
 .cardLink:focus-visible .media {
   transform: scale(1.04);
@@ -116,6 +135,8 @@
 .cardLink:hover .category,
 .cardLink:hover .name,
 .cardLink:hover .year,
+.cardLink:hover .summary,
+.cardLink:focus-visible .summary,
 .cardLink:focus-visible .category,
 .cardLink:focus-visible .name,
 .cardLink:focus-visible .year {
@@ -161,6 +182,7 @@
 
   .category,
   .name,
+  .summary,
   .year {
     opacity: 1;
     transform: none;

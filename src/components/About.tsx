@@ -1,4 +1,5 @@
 import { useParallaxRef } from "../hooks/useParallaxRegistry";
+import { SlotImage } from "./SlotImage";
 import styles from "./About.module.css";
 
 export function About() {
@@ -15,6 +16,21 @@ export function About() {
         <div ref={layerFront} className={`${styles.layer} ${styles.layerFront}`} />
       </div>
 
+      <div className={styles.inner}>
+      <figure className={styles.portrait}>
+        <div className={styles.portraitFallback} aria-hidden>
+          <img src="/images/logo.png" alt="" width={96} height={96} />
+        </div>
+        <SlotImage
+          src="/images/sofia.jpg"
+          alt="Sofía Grassi, fundadora de Garra"
+          className={styles.portraitImg}
+        />
+        <figcaption className={styles.portraitCaption}>
+          Sofía Grassi — fundadora
+        </figcaption>
+      </figure>
+
       <div ref={textRef} className={styles.content}>
         <p className="section-label">El estudio</p>
         <h2 id="about-title" className={styles.headline}>
@@ -27,8 +43,16 @@ export function About() {
           comunicar su identidad de forma visual, clara y atractiva.
         </p>
         <p className={styles.bodySecondary}>
-          Diseñamos con estrategia, pasión y garra.
+          Detrás de cada marca hay una historia que merece ser contada. Mi
+          trabajo es contarla con estrategia, pasión y garra.
         </p>
+        <ul className={styles.credentials} aria-label="Formación y experiencia">
+          <li>Operadora en diseño gráfico</li>
+          <li>Técnica en marketing</li>
+          <li>Seminario Sembrando</li>
+          <li>Building Marketers</li>
+        </ul>
+      </div>
       </div>
     </section>
   );

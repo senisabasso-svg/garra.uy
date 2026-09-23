@@ -1,5 +1,6 @@
 import type { Project } from "../data/projects";
 import { useParallaxRef } from "../hooks/useParallaxRegistry";
+import { SlotImage } from "./SlotImage";
 import styles from "./Work.module.css";
 
 type Props = {
@@ -24,11 +25,18 @@ export function ProjectCard({ project, index }: Props) {
               className={`${styles.media} ${styles[project.visualClass as keyof typeof styles]}`}
               role="img"
               aria-label={`Composición visual abstracta — ${project.category}`}
-            />
+            >
+              <SlotImage
+                src={project.image}
+                alt={`${project.label} — ${project.category}`}
+                className={styles.photo}
+              />
+            </div>
           </div>
           <div className={styles.overlay}>
             <span className={styles.category}>{project.category}</span>
             <span className={styles.name}>{project.label}</span>
+            <span className={styles.summary}>{project.summary}</span>
             <span className={styles.year}>{project.year}</span>
           </div>
         </div>

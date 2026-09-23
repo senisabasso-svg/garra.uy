@@ -4,6 +4,7 @@ import styles from "./Navbar.module.css";
 const links = [
   { href: "#work", label: "Trabajos" },
   { href: "#services", label: "Servicios" },
+  { href: "#plans", label: "Planes" },
   { href: "#about", label: "Estudio" },
   { href: "#contact", label: "Contacto" },
 ];
